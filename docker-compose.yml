@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        - DEV=ture
+        - DEV=true
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
