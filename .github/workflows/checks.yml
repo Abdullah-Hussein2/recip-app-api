@@ -15,7 +15,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build Docker image
         run: |
-          docker build -t recip-app-api
+          docker build -t "recip-app-api"
       - name: Checkout
         uses: actions/checkout@v3
       - name: Test
